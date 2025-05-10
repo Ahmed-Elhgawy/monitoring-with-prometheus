@@ -50,6 +50,17 @@ Default credentials: admin / grafanaPass
 
 ---
 
+## 📂 Related Repositories
+- 💾 GitOps + Kubernetes Manifests Repo:
+This monitoring setup complements the GitOps deployment managed in the following repository: \
+🔗 [k8s-deployment-with-helm](https://github.com/Ahmed-Elhgawy/k8s-gitops-infrastructure.git)
+- That repo contains:
+  - Kubernetes manifests for the Todo App and MongoDB
+  - Sealed Secrets
+  - Argo CD Application definition
+
+---
+
 ## 📊 Screenshots
 
 | Grafana Dashboard                        | Prometheus Rules                        |
@@ -95,3 +106,8 @@ alertingRules:
 ## 🙌 Author
 
 Ahmed Elhgawy – [GitHub](https://github.com/Ahmed-Elhgawy) | [LinkedIn](https://linkedin.com/in/ahmed-mahmoud-a16310268)
+
+---
+
+## 🏷 Tags
+`kubernetes` `prometheus` `grafana` `monitoring` `alerting` `devops`
